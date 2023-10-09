@@ -5,13 +5,32 @@ img {
 
 :root {
     --blue: #2C3E50;
+    --acqua: #1ABC9C;
+    --white: #fff;
 
 }
+
+/* debug */
+div[class^=col] {
+    background-color: red;
+    min-height: 70px;
+}
+
 /* Header */
 header {
     background-color: var(--blue);
     height: 80px;
 }
+
 /* Main */
+
+/* Hero */
+#hero {
+    background-color: var(--acqua);
+    min-height: 100px;
+    color: var(--white);
+    text-align: center;
+}
+
 
 /* Footer */
