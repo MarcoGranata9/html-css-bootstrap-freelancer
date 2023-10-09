@@ -1,0 +1,17 @@
+/* Reset */
+img {
+    max-width: 100%;
+}
+
+:root {
+    --blue: #2C3E50;
+
+}
+/* Header */
+header {
+    background-color: var(--blue);
+    height: 80px;
+}
+/* Main */
+
+/* Footer */
