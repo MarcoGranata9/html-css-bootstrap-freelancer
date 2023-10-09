@@ -10,6 +10,11 @@ img {
 
 }
 
+.wrapper-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* debug */
 div[class^=col] {
     background-color: lightcoral;
@@ -29,6 +34,13 @@ header {
     min-height: 100px;
     color: var(--white);
     text-align: center;
+}
+
+/* Portfolio section */
+
+/* About section */
+#about {
+    background-color: var(--acqua);
 }
 
 
