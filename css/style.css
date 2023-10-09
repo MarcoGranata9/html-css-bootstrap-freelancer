@@ -5,6 +5,7 @@ img {
 
 :root {
     --blue: #2C3E50;
+    --blue-light: #3A546D;
     --acqua: #1ABC9C;
     --white: #fff;
 
@@ -45,3 +46,11 @@ header {
 
 
 /* Footer */
+
+footer {
+    background-color: var(--blue-light);
+}
+
+.copy {
+    background-color: var(--blue);
+}
