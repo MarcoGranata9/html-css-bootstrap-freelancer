@@ -41,9 +41,12 @@ header {
 /* About section */
 #about {
     background-color: var(--acqua);
+    color: var(--white);
 }
 
-
+.btn-width {
+    width: 120px;
+}
 /* Footer */
 
 footer {
