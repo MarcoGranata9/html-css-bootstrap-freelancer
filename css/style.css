@@ -70,6 +70,32 @@ header {
 
 footer {
     background-color: var(--blue-light);
+    color: var(--white);
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+}
+
+footer i {
+    font-size: 1.5rem;
+}
+
+.acqua {
+    color: var(--acqua);
 }
 
 .copy {
