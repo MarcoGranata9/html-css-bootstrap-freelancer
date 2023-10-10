@@ -99,8 +99,27 @@
         <!-- Contact section -->
         <section>
             <div class="container-fluid">
-                <div class="wrapper-60">
+                <div class="wrapper-60 p-4">
                     <h2>CONTACT ME</h2>
+                    <form action="">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-floating">
+                           <input type="email" class="form-control" id="email" placeholder="E-mail address">
+                           <label for="email">E-mail address</label> 
+                        </div>
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="phone" placeholder="Phone number">
+                            <label for="phone">Phone number</label>
+                        </div>
+                        <div>
+                            <label class="ps-3" for="message">Message</label>
+                            <textarea class="form-control" id="message" cols="30" rows="5"></textarea>
+                        </div>
+                       <button class="mt-2 btn btn-primary">Send</button>
+                    </form>
                 </div>
             </div>
         </section>

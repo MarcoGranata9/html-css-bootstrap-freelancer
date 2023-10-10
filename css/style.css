@@ -36,8 +36,6 @@ header {
     height: 250px;
 }
 
-/* Portfolio section */
-
 /* About section */
 #about {
     background-color: var(--acqua);
@@ -47,6 +45,27 @@ header {
 .btn-width {
     width: 120px;
 }
+
+/* Contact section */
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.wrapper-60 label {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--blue);
+}
+
+.btn-primary {
+    background-color: var(--acqua);
+    border-color: var(--acqua);
+}
+
 /* Footer */
 
 footer {
