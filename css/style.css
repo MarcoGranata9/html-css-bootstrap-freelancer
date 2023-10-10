@@ -3,6 +3,12 @@ img {
     max-width: 100%;
 }
 
+hr {
+    width: 15%;
+    min-width: 80px;
+    margin: 0;
+}
+
 /* Variables */
 :root {
     --blue: #2C3E50;
