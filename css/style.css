@@ -3,23 +3,17 @@ img {
     max-width: 100%;
 }
 
+/* Variables */
 :root {
     --blue: #2C3E50;
     --blue-light: #3A546D;
     --acqua: #1ABC9C;
     --white: #fff;
-
 }
 
 .wrapper-60 {
     width: 60%;
     margin: 0 auto;
-}
-
-/* debug */
-div[class^=col] {
-    background-color: lightcoral;
-    min-height: 70px;
 }
 
 /* Header */
@@ -35,6 +29,11 @@ header {
     min-height: 100px;
     color: var(--white);
     text-align: center;
+}
+
+#hero img {
+    width: 250px;
+    height: 250px;
 }
 
 /* Portfolio section */
