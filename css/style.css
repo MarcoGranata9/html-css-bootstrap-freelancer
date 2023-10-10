@@ -31,6 +31,7 @@ img {
 /* Header */
 header {
     background-color: var(--blue);
+    z-index: 9999;
 }
 
 /* Main */
